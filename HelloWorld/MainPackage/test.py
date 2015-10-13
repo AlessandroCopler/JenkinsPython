@@ -6,7 +6,7 @@ class Test(unittest.TestCase):
 
 
     def testName(self):
-        pass
+        self.assertEqual(sum(2,3),5,"Test riuscito")  
 
 
 if __name__ == "__main__":
