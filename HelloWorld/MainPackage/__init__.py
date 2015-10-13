@@ -1,6 +1,4 @@
-import test
-
-def sum(a,b):
+def somma(a,b):
     return a+b
 
-print "La somma tra 2 e 3 e %d" % sum(2,3)
+print "La somma tra 2 e 3 e %d" % somma(2,3)
