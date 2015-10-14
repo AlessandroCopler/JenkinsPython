@@ -1,6 +1,6 @@
 
 import unittest
-from MainPackage.Operazioni import Operazioni
+from Operazioni import Operazioni
 
 
 class Test(unittest.TestCase):
