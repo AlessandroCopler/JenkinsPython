@@ -1,6 +1,6 @@
 
 import unittest
-from MainPackage import somma
+from MainPackage import *
 
 
 class Test(unittest.TestCase):
