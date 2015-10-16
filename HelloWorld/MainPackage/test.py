@@ -5,7 +5,7 @@ from Operazioni import Operazioni
 
 class Test(unittest.TestCase):
 
-    def testName(self):
+    def testSomma(self):
         o=Operazioni(2,3)
         self.assertEqual(o.somma(),5,"La somma e sbagliata")
 
