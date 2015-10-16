@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
 
     def testDifferenzaNegativa(self):
         o=Operazioni(2,3)
-        self.assertEqual(o.differenza(),-1,"La differenza non e nulla")
+        self.assertEqual(o.differenza(),0,"La differenza non e nulla")
     
     def testDifferenzaPositiva(self):
         o=Operazioni(3,2)
